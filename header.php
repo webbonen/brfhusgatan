@@ -12,4 +12,4 @@
             <header>
                     <a href="index.php"><h1 class="brfrubrik">BRF Husgatan</h1></a>
             </header>
-            <main>
+            <main> 
