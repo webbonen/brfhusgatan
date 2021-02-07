@@ -1,0 +1,138 @@
+body {
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: none;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+header {
+    width: 100%;
+    background-image: url('headerbild.jpg');
+    background-position: 0% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    margin: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.aktivitetsdiv, .resultatdiv {
+    padding: 1.5em;
+    min-width: 60%;
+    box-sizing: border-box;
+    line-height: 2em;
+}
+
+.resultatdiv {
+    padding-bottom: 10rem;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align:left;
+    padding: 0 0.5em;
+    line-height: 2em;
+  }
+
+.loginorlogout {
+    display: block;
+    background-color:rgb(224,239,235);
+    min-width: 20%;
+    padding: 1em;
+    text-align: right;
+    box-sizing: border-box;
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+    .loginorlogout {
+        width: 100%;
+        padding: 0em 1.5em 1em 1.5em;
+        text-align: center;
+    }
+}
+
+.brfrubrik {
+    margin: 0;
+    padding-bottom: 0.25em;
+    padding-left:0.5em;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #DED6E1;
+    padding: 1.5em;
+}
+
+.alert_green {
+    background-color: rgba(127, 255, 159, 0.5);
+    display: block;
+    border-radius: 2px;
+    float: left;
+}
+
+.alert_red {
+    background-color: rgba(255, 127, 127, 0.5);
+    display: block;
+    border-radius: 2px;
+    float: left;
+}
+
+.popup {
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    min-width: 300px;
+    width: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    line-height: 2em;
+}
+
+.popupbakgrund {
+    background-color: rgba(245, 245, 245, 0.25);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.tilladminsida {
+    float: right;
+    margin-bottom: 1.5em;
+}
+
+#laggtilldivknapp {
+    float: right;
+}
